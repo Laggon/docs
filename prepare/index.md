@@ -44,17 +44,17 @@ git config --global user.email johndoe@example.com
 
 Создать репозиторий в GitHub. Указать название и тип репозитория (приватный или публичный), а остальные параметры по умолчанию.
 
-![Создание репозитория](image.png)
+![Создание репозитория](images/image.png)
 
 Скопировать адрес репозитория по протоколу SSH
 
-![Подключение репозитория](image-1.png)
+![Подключение репозитория](images/image-1.png)
 
 Создать папку проекта, например через проводник, и открыть ее через VS Code.
 
 Далее выполнить команды, например как предлагает сам GitHub. Также их можно выполнить с помощью графического интерфейса.
 
-![alt text](image-2.png)
+![alt text](images/image-2.png)
 
 Создать файл `README.md` с содержимым:
 
@@ -72,29 +72,29 @@ git config --global user.email johndoe@example.com
 
 Интерфейс с добавленным файлом README.md:
 
-![alt text](image-3.png)
+![alt text](images/image-3.png)
 
 Инициализирование репозитория: Source Control - Initialize Repository (либо команда `git init`):
 
-![alt text](image-4.png)
+![alt text](images/image-4.png)
 
 Далее необходимо включить файл в коммит (команда `git add README.md`):
 
 Для этого в Source Control - Changes - выбранный файл (по клику на название можно увидеть вносимые изменения), для того чтобы включить его справа от его названия нажать `+`.
 
-![alt text](image-5.png)
+![alt text](images/image-5.png)
 
 Изменения, которые будут включены в коммит отображаются в списке `Staged Changes`.
 
-![alt text](image-6.png)
+![alt text](images/image-6.png)
 
 Далее указать `Message` (суть вносимых изменений, например: Добавлен README.md) и нажать `Commit` (команда `git commit -m "first commit"`).
 
-![alt text](image-7.png)
+![alt text](images/image-7.png)
 
 Далее подключить удаленный репозиторий (репозиторий на GitHub): Source Control - More actions - Remote - Add Remote (команда `git remote add origin git@github.com:Laggon/example.git`).
 
-![alt text](image-8.png)
+![alt text](images/image-8.png)
 
 Указать путь к проекту на GitHub, например:
 
@@ -102,48 +102,48 @@ git config --global user.email johndoe@example.com
 git@github.com:Laggon/example.git
 ```
 
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 Указать название удаленного репозитория (обычно называют `origin`):
 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 При первом подключении может просить подтвердить отпечаток ключа GitHub, выбрать: `yes`.
 
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
 И может при запросе отпечатка отобразить ошибку, нажать `Cancel`.
 
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 При установленном расширении Git Graph, доступен просмотр графического представления веток.
 
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 В нем можно увидеть коммиты и ветки в репозитории.
 
 На данный момент имеется ветка `main`, которая находиться только в локальном репозитории.
 
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 
 Публикация ветки в удаленный репозиторий (GitHub).
 
 Для этого нажать кнопку Publish Branch (или выполнить команду `git push -u origin main`).
 
-![alt text](image-15.png)
+![alt text](images/image-15.png)
 
 Если выводиться ошибка, то посмотреть подробности можно в Show Command Output.
 
-![alt text](image-16.png)
+![alt text](images/image-16.png)
 
 Если отображается подобная ошибка, значит не добавлен ssh ключ в аккаунт или некорректно указать путь к репозиторию.
 
-![alt text](image-17.png)
+![alt text](images/image-17.png)
 
 После публикации ветки, в Git Graph будет отображаться, что ветка main также соответствует удаленному репозиторию в GitHub.
 
-![alt text](image-18.png)
+![alt text](images/image-18.png)
 
 Можно убедиться в репозитории на GitHub.
 
-![alt text](image-19.png)
+![alt text](images/image-19.png)
