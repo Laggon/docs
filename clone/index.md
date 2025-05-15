@@ -12,7 +12,7 @@
 
 Копируем ссылку, в данном случае она:
 
-```
+```text
 git@gitlab.com/Laggon/example.git
 ```
 
@@ -38,7 +38,7 @@ cmd
 
 Далее выполняем команду клонирования репозитория по ссылке, которую скопировали ранее из вкладки `Code`
 
-```
+```text
 git clone git@github.com:Laggon/example.git
 ```
 
