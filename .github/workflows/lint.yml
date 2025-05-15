@@ -6,12 +6,9 @@ on:
       - main
   pull_request:
 
-permissions:
-  contents: read
-
 jobs:
   lint:
-    name: Lint
+    name: Markdownlint
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
