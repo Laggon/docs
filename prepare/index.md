@@ -32,11 +32,13 @@ git config --global user.email johndoe@example.com
 [Скачать](https://code.visualstudio.com/) или [Скачать для Windows 8/8.1](https://code.visualstudio.com/updates/v1_79)
 
 При установке рекомендуется указать:
+
 * Создать значок на рабочем столе
 * Добавить действие "Открыть с помощью Code" в контекстное меню файла проводника
 * Добавить действие "Открыть с помощью Code" в контекстное меню каталога проводника
 
 Рекомендуемые расширения (5 значок в панели слева):
+
 * Russian Language Pack for Visual Studio Code (автор: Microsoft) - MS-CEINTL.vscode-language-pack-ru
 * Git Graph (автор: mhutchie) - mhutchie.git-graph
 

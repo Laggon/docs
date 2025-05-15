@@ -85,7 +85,6 @@ git checkout main
 git pull
 ```
 
-
 Если локальная ветка актуальная отобразиться сообщение `Already up to date.`, или список загруженных изменений.
 
 ![alt text](images/image-8.png)
