@@ -12,4 +12,4 @@
 
 ## Дополнительно
 
-[Составление Issues](issues/index.md)
+[Составление Issues (пример заполнения)](issues/index.md)
