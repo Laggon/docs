@@ -4,7 +4,7 @@
 
 ## Краткие памятки
 
-[Процесс разработки](workflow/index.md)
+[Процесс разработки (ЧАВО/FAQ)](workflow/index.md)
 
 [Составление Issues (пример заполнения)](issues/index.md)
 
