@@ -2,12 +2,13 @@
 
 Обязательные к использованию возможности Git/GitHub:
 
-* [Issues](../glossary/index.md#issue---задача)
-* [Pull requests](../glossary/index.md#pull-request-pr---запрос-на-принятие-изменений)
-* [Labels](../glossary/index.md#label---метка)
-* [Milestones](../glossary/index.md#milestone---этап--контрольная-точка)
-* [Reviews](../glossary/index.md#review-code-review---отзыв--проверка-кода)
-* [Assignee](../glossary/index.md#assignees---ответственные)
+* [Issues (задачи)](../glossary/index.md#issue---задача)
+* [Branches (ветки)](../glossary/index.md#branch---ветка)
+* [Pull requests (PR)](../glossary/index.md#pull-request-pr---запрос-на-принятие-изменений)
+* [Labels (метки)](../glossary/index.md#label---метка)
+* [Milestones (этапы)](../glossary/index.md#milestone---этап--контрольная-точка)
+* [Reviews (ревью)](../glossary/index.md#review-code-review---отзыв--проверка-кода)
+* [Assignee (ответственный)](../glossary/index.md#assignees---ответственные)
 
 Первоначально в проекте должен быть только файл `README.md` с названием проекта. Все остальные изменения вносятся с помощью [PR](../glossary/index.md#pull-request-pr---запрос-на-принятие-изменений).
 
