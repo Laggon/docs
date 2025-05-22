@@ -2,8 +2,6 @@
 
 [Глоссарий](glossary/index.md)
 
-## Краткие памятки
-
 [Процесс разработки (ЧАВО/FAQ)](workflow/index.md)
 
 [Составление Issues (пример заполнения)](issues/index.md)
