@@ -9,6 +9,7 @@
 * [Milestones (этапы)](../glossary/index.md#milestone---этап--контрольная-точка)
 * [Reviews (ревью)](../glossary/index.md#review-code-review---отзыв--проверка-кода)
 * [Assignee (ответственный)](../glossary/index.md#assignees---ответственные)
+* Markdown (язык разметки документации) или аналог
 
 Первоначально в проекте должен быть только файл `README.md` с названием проекта. Все остальные изменения вносятся с помощью [PR](../glossary/index.md#pull-request-pr---запрос-на-принятие-изменений).
 
