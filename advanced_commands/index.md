@@ -19,3 +19,15 @@ git rm --cached file.txt
 ```sh
 git rm --cached -r .idea
 ```
+
+## Удаление удаленных локальных веток (origin/..), которых нет в удаленном репозитории
+
+```sh
+git remote prune origin
+```
+
+Проверка без удаления:
+
+```sh
+git remote prune origin -n
+```
