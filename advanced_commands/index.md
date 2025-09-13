@@ -31,3 +31,9 @@ git remote prune origin
 ```sh
 git remote prune origin -n
 ```
+
+## Информация о соответствии с удаленным репозиторием
+
+```sh
+git remote show origin
+```
